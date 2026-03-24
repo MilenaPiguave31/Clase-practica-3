@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Menú Desplegable</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<nav>
+    <ul class="menu">
+        <li onclick="toggleMenu(this)">
+            Productos
+            <ul class="submenu">
+                <li>Computadoras</li>
+                <li>Celulares</li>
+                <li>Accesorios</li>
+            </ul>
+        </li>
+
+        <li onclick="toggleMenu(this)">
+            Servicios
+            <ul class="submenu">
+                <li>Reparación</li>
+                <li>Soporte</li>
+            </ul>
+        </li>
+
+        <li>Contacto</li>
+    </ul>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
